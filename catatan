@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tailwind CSS Basic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-indigo-300 dark:bg-teal-950 text-center justify-center">
+    <!-- pengguna color mode di tailwind -->
+     <!-- bg = background, text = teks -->
+      <!-- colorname = kode warna bahasa inggris -->
+      <!-- kecerahan angka dari 50 - 950 -->
+       <!-- --bg-stale-100, bg-stale-400 -->
+        <!-- ** text-blue-300, text-blue-900 -->
+         <!-- custom class di tailwind menggunakan [] -->
+          <!-- contoh: text-[33px] -->
+    <h1 class="text-blue-900 text-6xl font-thin
+     underline mb-5">
+        Hello world!
+    </h1>
+    <!-- m = atur margin -->
+     <!-- mb = atur margin bottom (bawah) -->
+      <!-- p = atur padding -->
+       <!-- pt = atur padding top (atas) -->
+        <!-- mx/px = ukuran kiri kanan nya -->
+         <!-- my/py = ukuran atas bawah nya -->
+          <!-- rounded = border radius (sm,md,) -->
+        <button class="rounded-full bg-sky-500 dark:bg-red-800 px-5 py-3 text-sm 
+        font-semibold text-white hover:bg-violet-700 hover:text-black">
+            save changes
+        </button>
+        
+
+  </body>
+</html>
