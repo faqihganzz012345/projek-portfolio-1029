@@ -2,8 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   background: linear-gradient(to  right, #FFA17F, #00223E);
-  
+
 }
+
 
 .navbar {
   display: flex;
